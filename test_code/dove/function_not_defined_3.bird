@@ -1,0 +1,4 @@
+def f x =  3 end
+def g x =  5 end
+
+if true then c 2  else f 2

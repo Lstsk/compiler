@@ -1,0 +1,12 @@
+(* Assuming 8 word heap *)
+
+(* Use 4 words and then discard them *)
+let junk =
+  let ephemeral = (40,41) in 0
+in
+(* Allocate 4 more words *)
+let t1 = (55,56) in
+(* Trigger GC *)
+let t2 = (65,66) in
+(* Observe memory corruption *)
+t1

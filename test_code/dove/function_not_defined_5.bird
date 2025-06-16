@@ -1,0 +1,4 @@
+def f x = 
+  g 2
+end
+f 2

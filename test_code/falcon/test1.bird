@@ -1,0 +1,9 @@
+def f x y =
+  after(x) + y + y * 2
+end
+
+def g x =
+  4 - x
+end
+
+f 4 (g 3)

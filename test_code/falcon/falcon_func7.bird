@@ -1,0 +1,9 @@
+def apply_twice f x =
+  f (f x)
+end
+
+def double x =
+  x * 2
+end
+
+apply_twice double 3

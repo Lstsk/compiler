@@ -1,0 +1,6 @@
+def square x =
+  x * x
+end
+
+let f = square in
+  f 5

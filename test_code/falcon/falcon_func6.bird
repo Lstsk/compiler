@@ -1,0 +1,12 @@
+def ntimes f n x =
+  if n > 0 then
+    ntimes f (n-1) (f x)
+  else
+    x
+end
+
+def inc x =
+  x + 1
+end
+
+ntimes inc 10 0

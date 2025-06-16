@@ -1,0 +1,4 @@
+if 3 < 4 then
+  if 2 < 1 then 10 else 
+    if 6 = 6 then 20 else 30
+else 40

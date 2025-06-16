@@ -1,0 +1,4 @@
+def f x = 
+  let n = 3 in n
+end
+f 2

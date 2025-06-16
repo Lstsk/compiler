@@ -1,0 +1,6 @@
+def f a
+  let x = 2 in
+  print(x) = print(x)
+end
+
+f 222

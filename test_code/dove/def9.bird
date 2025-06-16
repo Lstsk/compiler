@@ -1,0 +1,6 @@
+def f y = 
+    let x = 2 in
+    print(x) = print(x)
+end
+
+f 0

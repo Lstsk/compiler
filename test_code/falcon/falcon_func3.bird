@@ -1,0 +1,6 @@
+def f x y =
+  x - y
+end
+
+let decrement = f 1 in
+(decrement 3, decrement 7)
